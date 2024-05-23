@@ -1,4 +1,16 @@
-Hello world script
-====================
+# Toy branch example
 
-A simple script showing the basic Hello World! example for the Nextflow framework. 
+## Version in defaultBranch
+``` nextflow
+manifest {
+    version         = '1.1.0'
+    defaultBranch   = '1.1.0'
+    //defaultRevision = ""
+}
+```
+
+```console
+nextflow run edmundmiller/trunk-nf 
+```
+
+Fails
