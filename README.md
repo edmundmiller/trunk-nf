@@ -1,5 +1,9 @@
 # Toy branch example
 
+```
+nextflow run edmundmiller/trunk-nf # -r master
+```
+
 ## Version in defaultBranch
 
 ```nextflow
